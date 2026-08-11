@@ -1,0 +1,6 @@
+name = "tg-adder"
+main = "worker.js"
+compatibility_date = "2026-01-01"
+
+# Worker будет использовать D1 binding с именем DB (привяжем в Cloudflare UI)
+# Секреты (WORKER_API_KEY, FERNET_KEY) добавим в Cloudflare Secrets
